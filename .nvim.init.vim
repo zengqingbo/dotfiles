@@ -1,0 +1,1 @@
+/Users/zengqingbo/.config/nvim/init.vim
