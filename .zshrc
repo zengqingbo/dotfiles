@@ -121,5 +121,7 @@ PS1='$(show_virtual_env)'$PS1
 PATH="$PATH:/usr/local/opt/inetutils/libexec/gnubin"
 
 export FZF_DEFAULT_COMMAND='fd --type f'
+export FZF_CTRL_T_COMMAND=$FZF_DEFAULT_COMMAND
+export FZF_ALT_C_COMMAND="fd -t d . "
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
